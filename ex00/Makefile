@@ -22,7 +22,7 @@ WHITE = $(shell tput setaf 7)
 
 #Sources
 	
-SRC_FILES = main Animal Dog Cat
+SRC_FILES = main Animal Dog Cat WrongAnimal WrongCat
 
 SRC = $(addprefix $(SRC_DIR), $(addsuffix .cpp, $(SRC_FILES)))
 OBJ = $(addprefix $(OBJ_DIR), $(addsuffix .o, $(SRC_FILES)))

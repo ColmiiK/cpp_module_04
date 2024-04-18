@@ -6,7 +6,7 @@
 /*   By: alvega-g <alvega-g@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 12:50:45 by alvega-g          #+#    #+#             */
-/*   Updated: 2024/04/17 13:46:10 by alvega-g         ###   ########.fr       */
+/*   Updated: 2024/04/18 11:09:58 by alvega-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ class Animal {
 		Animal( void );
 		Animal( const Animal& source );
 		Animal& operator=( const Animal& source );
-		~Animal( void );
-		void makeSound( void ) const;
+		virtual ~Animal( void );
+		virtual void makeSound( void ) const;
 		std::string getType( void ) const;
 };
 

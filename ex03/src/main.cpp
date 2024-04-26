@@ -6,7 +6,7 @@
 /*   By: alvega-g <alvega-g@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/18 12:17:34 by alvega-g          #+#    #+#             */
-/*   Updated: 2024/04/25 17:31:22 by alvega-g         ###   ########.fr       */
+/*   Updated: 2024/04/26 11:33:25 by alvega-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,7 @@
 #include <Character.hpp>
 #include <MateriaSource.hpp>
 
-/*
-$> clang++ -W -Wall -Werror *.cpp
-$> ./a.out | cat -e
-* shoots an ice bolt at bob *$
-* heals bob's wounds *$
-*/
+
 
 int main() {
 	IMateriaSource* src = new MateriaSource();
@@ -47,3 +42,13 @@ int main() {
 	
 	return 0;
 }
+
+/* 
+Executing:
+$> clang++ -W -Wall -Werror *.cpp
+$> ./a.out | cat -e
+
+Should output:
+* shoots an ice bolt at bob *$
+* heals bob's wounds *$
+*/

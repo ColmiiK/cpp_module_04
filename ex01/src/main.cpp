@@ -6,7 +6,7 @@
 /*   By: alvega-g <alvega-g@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 12:50:34 by alvega-g          #+#    #+#             */
-/*   Updated: 2024/04/18 11:48:37 by alvega-g         ###   ########.fr       */
+/*   Updated: 2024/06/04 11:45:02 by alvega-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main()
 	const Animal* j = new Dog();
 	const Animal* i = new Cat();
 	
-	delete j;//should not create a leak
+	delete j;
 	delete i;
 	
 	Animal* array[100];

@@ -6,7 +6,7 @@
 /*   By: alvega-g <alvega-g@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/17 12:50:34 by alvega-g          #+#    #+#             */
-/*   Updated: 2024/04/18 12:15:25 by alvega-g         ###   ########.fr       */
+/*   Updated: 2024/06/04 11:52:44 by alvega-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,6 @@ int main()
 	delete rightDog;
 	delete rightCat;
 	delete wrongCat;
+	delete wrongAnimal;
 	return 0;
 }
